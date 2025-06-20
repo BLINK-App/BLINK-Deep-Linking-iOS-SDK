@@ -12,10 +12,8 @@ import _SwiftConcurrencyShims
   public static let shared: BlinkDeepLinkingSDK.BlinkDeepLinkManager
   public var customHeaders: [Swift.String : Swift.String]
   public var strLastCompontent: Swift.String
+  public var isDebugMode: Swift.Bool
   public func handleDeepLink(url: Swift.String? = nil, onResult: @escaping (_ lastComponent: Swift.String?, _ apiResponse: Swift.String?) -> Swift.Void)
-  public func getValue(completion: @escaping (Swift.String?, Swift.String?) -> Swift.Void)
-  public func handleDeepLinkFromUserPaste() -> Swift.String?
-  public func isDeepLinkDomain(url: Foundation.URL) -> Swift.Bool
-  public func fetchPromoCodeFromServer(withLastComponent lastComponent: Swift.String?) async -> (Swift.String?, Swift.String?)
+  public func callGetkeyworvalueAPI(withLastComponent lastComponent: Swift.String?) async -> (Swift.String?, Swift.String?)
   @objc deinit
 }

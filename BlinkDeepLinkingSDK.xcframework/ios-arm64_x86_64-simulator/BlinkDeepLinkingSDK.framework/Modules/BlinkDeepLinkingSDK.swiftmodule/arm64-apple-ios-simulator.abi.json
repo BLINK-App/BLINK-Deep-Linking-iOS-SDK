@@ -47,7 +47,8 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -292,6 +293,92 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "isDebugMode",
+            "printedName": "isDebugMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19BlinkDeepLinkingSDK0aB11LinkManagerC11isDebugModeSbvp",
+            "mangledName": "$s19BlinkDeepLinkingSDK0aB11LinkManagerC11isDebugModeSbvp",
+            "moduleName": "BlinkDeepLinkingSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BlinkDeepLinkingSDK0aB11LinkManagerC11isDebugModeSbvg",
+                "mangledName": "$s19BlinkDeepLinkingSDK0aB11LinkManagerC11isDebugModeSbvg",
+                "moduleName": "BlinkDeepLinkingSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BlinkDeepLinkingSDK0aB11LinkManagerC11isDebugModeSbvs",
+                "mangledName": "$s19BlinkDeepLinkingSDK0aB11LinkManagerC11isDebugModeSbvs",
+                "moduleName": "BlinkDeepLinkingSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19BlinkDeepLinkingSDK0aB11LinkManagerC11isDebugModeSbvM",
+                "mangledName": "$s19BlinkDeepLinkingSDK0aB11LinkManagerC11isDebugModeSbvM",
+                "moduleName": "BlinkDeepLinkingSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "handleDeepLink",
             "printedName": "handleDeepLink(url:onResult:)",
@@ -376,133 +463,8 @@
           },
           {
             "kind": "Function",
-            "name": "getValue",
-            "printedName": "getValue(completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.String?, Swift.String?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Tuple",
-                    "printedName": "(Swift.String?, Swift.String?)",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19BlinkDeepLinkingSDK0aB11LinkManagerC8getValue10completionyySSSg_AFtc_tF",
-            "mangledName": "$s19BlinkDeepLinkingSDK0aB11LinkManagerC8getValue10completionyySSSg_AFtc_tF",
-            "moduleName": "BlinkDeepLinkingSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "handleDeepLinkFromUserPaste",
-            "printedName": "handleDeepLinkFromUserPaste()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19BlinkDeepLinkingSDK0aB11LinkManagerC06handlebE13FromUserPasteSSSgyF",
-            "mangledName": "$s19BlinkDeepLinkingSDK0aB11LinkManagerC06handlebE13FromUserPasteSSSgyF",
-            "moduleName": "BlinkDeepLinkingSDK",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "isDeepLinkDomain",
-            "printedName": "isDeepLinkDomain(url:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:19BlinkDeepLinkingSDK0aB11LinkManagerC02isbE6Domain3urlSb10Foundation3URLV_tF",
-            "mangledName": "$s19BlinkDeepLinkingSDK0aB11LinkManagerC02isbE6Domain3urlSb10Foundation3URLV_tF",
-            "moduleName": "BlinkDeepLinkingSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "fetchPromoCodeFromServer",
-            "printedName": "fetchPromoCodeFromServer(withLastComponent:)",
+            "name": "callGetkeyworvalueAPI",
+            "printedName": "callGetkeyworvalueAPI(withLastComponent:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -555,8 +517,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19BlinkDeepLinkingSDK0aB11LinkManagerC24fetchPromoCodeFromServer17withLastComponentSSSg_AFtAF_tYaF",
-            "mangledName": "$s19BlinkDeepLinkingSDK0aB11LinkManagerC24fetchPromoCodeFromServer17withLastComponentSSSg_AFtAF_tYaF",
+            "usr": "s:19BlinkDeepLinkingSDK0aB11LinkManagerC21callGetkeyworvalueAPI17withLastComponentSSSg_AFtAF_tYaF",
+            "mangledName": "$s19BlinkDeepLinkingSDK0aB11LinkManagerC21callGetkeyworvalueAPI17withLastComponentSSSg_AFtAF_tYaF",
             "moduleName": "BlinkDeepLinkingSDK",
             "declAttributes": [
               "AccessControl",
@@ -589,76 +551,59 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "BlinkDeepLinkingSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "BlinkDeepLinkingSDK"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/vatsal\/Vatsal's Git Project\/bl.ink-ios-sdk\/BlinkDeepLinkingSDK\/Resource\/Class\/BlinkDeepLinkingManager.swift",
+      "filePath": "\/Users\/vatsal\/Vatsal's Git Project\/bl.ink-ios-sdk\/BlinkDeepLinkingSDK\/Resource\/Class\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 258,
-      "length": 11,
-      "value": "\"PromoCode\""
+      "offset": 96,
+      "length": 56,
+      "value": "\"https:\/\/api.blink.app\/integrations\/v1\/deeplink\/resolve\""
+    },
+    {
+      "filePath": "\/Users\/vatsal\/Vatsal's Git Project\/bl.ink-ios-sdk\/BlinkDeepLinkingSDK\/Resource\/Class\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 37,
+      "value": "\"https:\/\/api64.ipify.org?format=text\""
     },
     {
       "filePath": "\/Users\/vatsal\/Vatsal's Git Project\/bl.ink-ios-sdk\/BlinkDeepLinkingSDK\/Resource\/Class\/BlinkDeepLinkingManager.swift",
       "kind": "Dictionary",
-      "offset": 319,
+      "offset": 263,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vatsal\/Vatsal's Git Project\/bl.ink-ios-sdk\/BlinkDeepLinkingSDK\/Resource\/Class\/BlinkDeepLinkingManager.swift",
       "kind": "StringLiteral",
-      "offset": 358,
+      "offset": 302,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/vatsal\/Vatsal's Git Project\/bl.ink-ios-sdk\/BlinkDeepLinkingSDK\/Resource\/Class\/Constant.swift",
-      "kind": "StringLiteral",
-      "offset": 134,
-      "length": 42,
-      "value": "\"https:\/\/bllink.moonbeta.com\/get_data.php\""
+      "filePath": "\/Users\/vatsal\/Vatsal's Git Project\/bl.ink-ios-sdk\/BlinkDeepLinkingSDK\/Resource\/Class\/BlinkDeepLinkingManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 334,
+      "length": 5,
+      "value": "false"
     },
     {
-      "filePath": "\/Users\/vatsal\/Vatsal's Git Project\/bl.ink-ios-sdk\/BlinkDeepLinkingSDK\/Resource\/Class\/Constant.swift",
-      "kind": "StringLiteral",
-      "offset": 308,
-      "length": 70,
-      "value": "\"https:\/\/api.qa-1.blink.app\/integrations\/v1\/deeplink\/resolve?keyword=\""
+      "filePath": "\/Users\/vatsal\/Vatsal's Git Project\/bl.ink-ios-sdk\/BlinkDeepLinkingSDK\/Resource\/Class\/BlinkDeepLinkingManager.swift",
+      "kind": "Array",
+      "offset": 370,
+      "length": 4,
+      "value": "[\"\"]"
     },
     {
-      "filePath": "\/Users\/vatsal\/Vatsal's Git Project\/bl.ink-ios-sdk\/BlinkDeepLinkingSDK\/Resource\/Class\/Constant.swift",
+      "filePath": "\/Users\/vatsal\/Vatsal's Git Project\/bl.ink-ios-sdk\/BlinkDeepLinkingSDK\/Resource\/Class\/BlinkDeepLinkingManager.swift",
       "kind": "StringLiteral",
-      "offset": 418,
-      "length": 61,
-      "value": "\"https:\/\/api.qa-1.blink.app\/integrations\/v1\/deeplink\/resolve\""
-    },
-    {
-      "filePath": "\/Users\/vatsal\/Vatsal's Git Project\/bl.ink-ios-sdk\/BlinkDeepLinkingSDK\/Resource\/Class\/Constant.swift",
-      "kind": "StringLiteral",
-      "offset": 524,
-      "length": 37,
-      "value": "\"https:\/\/api64.ipify.org?format=text\""
+      "offset": 404,
+      "length": 9,
+      "value": "\"keyWord\""
     }
   ]
 }
