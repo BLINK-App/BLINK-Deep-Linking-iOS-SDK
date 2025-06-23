@@ -6,47 +6,47 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		a1oOivEw6a0mQrnZdQD6oNljL7g=
+		UVsXLoBoNaoo5Oj2a75sYu1emZQ=
 		</data>
 		<key>Modules/BlinkDeepLinkingSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		S20j62A78LpgaF3rFqxaqI6Co60=
+		YT1DCnPgDTak8/Y76GkO9A5xyaE=
 		</data>
 		<key>Modules/BlinkDeepLinkingSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		PnHFJEuyfONR3kpm+OdlCUfn0BU=
+		AeeLySP035Eqr6FD9JJRrpXKW00=
 		</data>
 		<key>Modules/BlinkDeepLinkingSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vW9VIak2LxdlaCiiID7yE7DXYZk=
+		MaFhQzyCLJP3nQsjAAZvJ3VWmBM=
 		</data>
 		<key>Modules/BlinkDeepLinkingSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		PnHFJEuyfONR3kpm+OdlCUfn0BU=
+		AeeLySP035Eqr6FD9JJRrpXKW00=
 		</data>
 		<key>Modules/BlinkDeepLinkingSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3AMRR7LFLShyHF1VWgFoJ0/H3nw=
+		5lsbNV7RUy19bhXdA1I3aTHZ48U=
 		</data>
 		<key>Modules/BlinkDeepLinkingSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		S20j62A78LpgaF3rFqxaqI6Co60=
+		YT1DCnPgDTak8/Y76GkO9A5xyaE=
 		</data>
 		<key>Modules/BlinkDeepLinkingSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		CtWJ/7d8EExT5L0vvXRdTPIvsGs=
+		bUq7jti3GjfkYy7J9On7B0aSDQA=
 		</data>
 		<key>Modules/BlinkDeepLinkingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		kx/3aXg4ysBJ1jJ6A06vRXrZA+c=
+		NK7Y3v/6Nm5Dtqgp0SoEhFz7LMI=
 		</data>
 		<key>Modules/BlinkDeepLinkingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		CtWJ/7d8EExT5L0vvXRdTPIvsGs=
+		bUq7jti3GjfkYy7J9On7B0aSDQA=
 		</data>
 		<key>Modules/BlinkDeepLinkingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Unz5g9sx1nMtyAwsfGgSSWOgJxk=
+		H30O8LQ4UV25FoDHLAlvhbA4pYg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,70 +55,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SW18kC+CLaw9cf/Pu/YrfclMgdoF7Ia9/qZ25FXwot0=
+			yUUVkPDYlO3VqcwgHuTHAmiYLRSEW/9D8VEpmDkS9Uo=
 			</data>
 		</dict>
 		<key>Modules/BlinkDeepLinkingSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W1Xny743JrBcCKapy2RMvoLMZLDxyWwNxyHP7FYF6Zc=
+			GYJmyyHICXv2khdRwP4DQAiT4XcHfAcNxCcuzpixoJc=
 			</data>
 		</dict>
 		<key>Modules/BlinkDeepLinkingSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tZhuUD0XCsCPOxKye+8IrHfceeVa6Vuu3Taf0MohlBc=
+			9HRTHCZciqcQ0IUneHZqVn2gmlXybRHxg+dvp9sWmN8=
 			</data>
 		</dict>
 		<key>Modules/BlinkDeepLinkingSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W1Xny743JrBcCKapy2RMvoLMZLDxyWwNxyHP7FYF6Zc=
+			GYJmyyHICXv2khdRwP4DQAiT4XcHfAcNxCcuzpixoJc=
 			</data>
 		</dict>
 		<key>Modules/BlinkDeepLinkingSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kzWSoZ2pt54d2rHpKEfVxJzeG9l7n+QM6bn/ndIrUz8=
+			VTGctlkXHHcI4vOI8Ifegomi1tqOlqA0EDFvFBs7n6I=
 			</data>
 		</dict>
 		<key>Modules/BlinkDeepLinkingSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SW18kC+CLaw9cf/Pu/YrfclMgdoF7Ia9/qZ25FXwot0=
+			yUUVkPDYlO3VqcwgHuTHAmiYLRSEW/9D8VEpmDkS9Uo=
 			</data>
 		</dict>
 		<key>Modules/BlinkDeepLinkingSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LBW2JYPo4y+0T37drAFsLRBbeh+egzqmkHkC5Bh/uPc=
+			iUunQLdX5afTXfasKjL15wK2RGQNgtlUwE4vMky4oxw=
 			</data>
 		</dict>
 		<key>Modules/BlinkDeepLinkingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eo7TYEBvsKf2hkKXzzwoaxzKdLqbjQIkFoW5BCN2yqg=
+			jWj/PQYb7pSxX2LehsqR25OxRUWXx/+keMUn2kA2Kxc=
 			</data>
 		</dict>
 		<key>Modules/BlinkDeepLinkingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LBW2JYPo4y+0T37drAFsLRBbeh+egzqmkHkC5Bh/uPc=
+			iUunQLdX5afTXfasKjL15wK2RGQNgtlUwE4vMky4oxw=
 			</data>
 		</dict>
 		<key>Modules/BlinkDeepLinkingSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lh/FbdICWRFbe1kfVrL5PIDYg1tOf6LtxfccYl95utQ=
+			1LsgzzqJ9GH8zF5hlz/MrI/mJUH+c2y+rg45BwUJrkQ=
 			</data>
 		</dict>
 	</dict>

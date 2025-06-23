@@ -557,20 +557,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/vatsal\/Vatsal's Git Project\/bl.ink-ios-sdk\/BlinkDeepLinkingSDK\/Resource\/Class\/Constant.swift",
-      "kind": "StringLiteral",
-      "offset": 96,
-      "length": 56,
-      "value": "\"https:\/\/api.blink.app\/integrations\/v1\/deeplink\/resolve\""
-    },
-    {
-      "filePath": "\/Users\/vatsal\/Vatsal's Git Project\/bl.ink-ios-sdk\/BlinkDeepLinkingSDK\/Resource\/Class\/Constant.swift",
-      "kind": "StringLiteral",
-      "offset": 182,
-      "length": 37,
-      "value": "\"https:\/\/api64.ipify.org?format=text\""
-    },
-    {
       "filePath": "\/Users\/vatsal\/Vatsal's Git Project\/bl.ink-ios-sdk\/BlinkDeepLinkingSDK\/Resource\/Class\/BlinkDeepLinkingManager.swift",
       "kind": "Dictionary",
       "offset": 263,
@@ -604,6 +590,20 @@
       "offset": 404,
       "length": 9,
       "value": "\"keyWord\""
+    },
+    {
+      "filePath": "\/Users\/vatsal\/Vatsal's Git Project\/bl.ink-ios-sdk\/BlinkDeepLinkingSDK\/Resource\/Class\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 96,
+      "length": 56,
+      "value": "\"https:\/\/api.blink.app\/integrations\/v1\/deeplink\/resolve\""
+    },
+    {
+      "filePath": "\/Users\/vatsal\/Vatsal's Git Project\/bl.ink-ios-sdk\/BlinkDeepLinkingSDK\/Resource\/Class\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 37,
+      "value": "\"https:\/\/api64.ipify.org?format=text\""
     }
   ]
 }
